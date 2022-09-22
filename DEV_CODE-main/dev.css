@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+}
+body{
+    background-image: linear-gradient(89.85deg, #1383DA -10.95%, #000000 91.16%);
+}
+.logoimg{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.logoimg img{
+    width: 20rem;
+}
+.logoimg span{
+    float: right;
+}
+.headerrightimg {
+    float: right;
+    margin-top: -4.8rem;
+}
+.boyimg{
+    width: 100%;
+}
+.boyimg img{
+    width: 28rem;
+    margin-top: -2rem;
+    padding-left: 3rem;
+}
+.socialmedia{
+    width: 25rem;
+    margin-top: -20rem;
+}
+.socialmedia button{
+    height: 2.9rem;
+    width: 25rem;
+    margin-top: 1.5rem;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+.s1 button svg{
+    width: 2rem;
+    float: left;
+    margin-left: 10px;
+    fill: #717cf4;
+}
+.s1 button{
+    background-image: linear-gradient(to right, white , rgb(85, 85, 213));
+}
+.s1 button:hover{
+    box-shadow: 0 0 8px 8px rgb(85, 85, 213);
+}
+.s1 p{
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s2 button svg{
+    width: 2rem;
+    float: left;
+    margin-left: 10px;
+    fill:  #38cff9;
+}
+.s2 button{
+    background-image: linear-gradient(270.18deg, #1ba5e4 0.1%, rgba(78, 183, 232, 0) 95.03%);
+}
+.s2 button:hover{
+    box-shadow: 0 0 8px 8px rgb(108, 198, 237);
+}
+.s2 p{
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s3 button img{
+    width: 2rem;
+    float: left;
+    margin-left: -34px;
+    margin-top: 3px;
+}
+.s3 button{
+    background-image: linear-gradient(89.8deg, #FED6D7 9.61%, #E452CC 103.22%);
+}
+.s3 button:hover{
+    box-shadow: 0 0 8px 8px rgb(232, 155, 225);
+}
+.s3 p{
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s4 button svg{
+    width: 2rem;
+    float: left;
+    margin-left: 10px;
+    fill: rgb(10, 102, 194)
+}
+.s4 button{
+    background-image: linear-gradient(270.13deg, #0B86CA -1.93%, rgba(11, 134, 202, 0) 92.2%);
+}
+.s4 button:hover{
+    box-shadow: 0 0 8px 8px rgb(108, 198, 237);
+}
+.s4 p{
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s5 button svg{
+    width: 2rem;
+    float: left;
+    margin-left: 10px;
+    fill: #0B86CA;
+}
+.s5 button{
+    background-image:  linear-gradient(270deg, #31A8DB -1.39%, rgba(137, 191, 214, 0) 101.26%);
+}
+.s5 button:hover{
+    box-shadow: 0 0 8px 8px rgb(108, 198, 237);
+}
+.s5 p{
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s6 button svg{
+    width: 2rem;
+    float: left;
+    margin-left: 10px;
+    fill: #5FE54B;
+}
+.s6 button{
+    background-image: linear-gradient(270deg, #5FE54B 0%, rgba(210, 229, 75, 0) 102.39%);
+}
+.s6 button:hover{
+    box-shadow: 0 0 8px 8px rgb(126, 235, 128);
+}
+.s6 p{
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boyimg span{
+    float: right;
+    margin-top: -22rem ;
+    background-color: red;
+    margin-right: 3rem;
+    height: 0rem;
+}
+.boyimg span img{
+    width: 13.8rem;
+}
+.footer{
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.copyright{
+    text-align: center;
+    margin-top: -3.8rem;
+}
+.copyright p{
+    color: gold;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.copyright span{
+    color: white;
+    font-size: 16px;
+}
+@media screen and (max-width: 425px) {
+    body{
+        background:#033E6A;
+        width: 100%;
+    }
+    .footer{
+        display: none;
+    }
+    .span img{
+        display: none;
+    }
+    .boyimg1 {
+        opacity: 0.3;
+    }
+    .headerrightimg{
+        display: none;
+    }
+}
+.s1 a:link {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: white;
+}  
+.s1 a:visited {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.s1 a:hover {
+    text-decoration: none;
+} 
+.s1  a:active {
+    text-decoration: none;
+}
+.s2 a:link {
+    text-decoration: none;
+}  
+.s2 a:visited {
+    text-decoration: none;
+} 
+.s2 a:hover {
+    text-decoration: none;
+} 
+.s2  a:active {
+    text-decoration: none;
+}
+.s3 a:link {
+    text-decoration: none;
+}  
+.s3 a:visited {
+    text-decoration: none;
+} 
+.s3 a:hover {
+    text-decoration: none;
+} 
+.s3  a:active {
+    text-decoration: none;
+}
+.s4 a:link {
+    text-decoration: none;
+}  
+.s4 a:visited {
+    text-decoration: none;
+} 
+.s4 a:hover {
+    text-decoration: none;
+} 
+.s4  a:active {
+    text-decoration: none;
+}
+.s5 a:link {
+    text-decoration: none;
+}  
+.s5 a:visited {
+    text-decoration: none;
+} 
+.s5 a:hover {
+    text-decoration: none;
+} 
+.s5  a:active {
+    text-decoration: none;
+}
+.s6 a:link {
+    text-decoration: none;
+}  
+.s6 a:visited {
+    text-decoration: none;
+} 
+.s6 a:hover {
+    text-decoration: none;
+} 
+.s5  a:active {
+    text-decoration: none;
+}
